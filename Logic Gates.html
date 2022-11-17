@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gate.css">
+    <link rel="stylesheet" href="fonts.css">
+    <title>Logic Gates Demo</title>
+</head>
+<body>
+    <div id="align">
+    <div id="whole">
+        <h2 id="gate-title">AND</h2>
+        <input type="text" id="a">
+        <p>.</p>
+        <input type="text" id="b">
+        <p>=</p>
+        <input type="text" id="otpt">
+
+        <button onclick="And()" id="res">Result</button>
+
+        <br><br>
+        <h2 id="gate-title">OR</h2>
+
+        <input type="text" id="c">
+        <p>+</p>
+        <input type="text" id="d">
+        <p>=</p>
+        <input type="text" id="otpto">
+
+        <button onclick="Or()" id="res">Result</button>
+
+        <br><br>
+        <h2 id="gate-title">NOT</h2>
+
+        <input type="text" id="e">
+        <p>=</p>
+        <input type="text" id="otptt">
+
+        <button onclick="Not()" id="res">Result</button>
+    </div>
+    </div>
+
+    <script src="gates.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(rgb(59, 59, 59),rgb(148, 148, 148));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#a, #b,#c,#d,#e,#f, #otpt, #otpto, #otptt{
+    width: 25px;
+    height: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    text-align: center;
+}
+#res{
+    background: rgb(160, 160, 160);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    width: 75px;
+    border-radius: 5px;
+    font-family: dc;
+    text-align: center;
+}
+p{
+    color: white;
+    font-family: EB;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 20px;
+}
+#whole{
+    background: rgba(0, 0, 0, 0.322);
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 30px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+#gate-title{
+    color: white;
+    font-family: EB;
+    font-weight: 500;
+    margin: 15px;
+}
+#align{
+    text-align: center;
+}
